@@ -1,10 +1,6 @@
 x = 1
 
 def merge_sort(arr, indexSort):
-    global x
-    # print("Sort ke ", x, arr)
-    sortKe = x
-    x += 1
     if len(arr) > 1:
         tengah = len(arr) // 2
         setengahKiri = arr[:tengah]
