@@ -16,6 +16,11 @@ def linear_search(arr, target):
             return i
     return -1
 
+print("=================================")
+print("Nama : Saiful Rohmat")
+print("Nim : 241011403015")
+print("=================================")
+
 # Contoh penggunaan
 dataset_a = [1, 3, 5, 7, 9, 11, 13, 15]
 dataset_b = [12, 7, 5, 9, 1, 3, 11, 15]
@@ -26,9 +31,9 @@ result1 = binary_search(dataset_a, target)
 if(result1 == -1):
     print(f"Binary Search (Data Terurut) :  Data Tidak Di temukan")
 else:
-    print(f"Binary Search (Data Terurut) : Target {target} ditemukan di indeks: {result1}")
+    print(f"Binary Search (Data Terurut) : Target {target} ditemukan di Urutan Ke: {result1 + 1}")
 result2 = linear_search(dataset_b, target)
 if(result2 == -1):
     print(f"Linear Search (Data Tidak Terurut) : Data Tidak Di temukan")
 else:
-    print(f"Linear Search (Data Tidak Terurut) : Target {target} ditemukan di indeks: {result2}")
+    print(f"Linear Search (Data Tidak Terurut) : Target {target} ditemukan di Urutan Ke: {result2 + 1}")

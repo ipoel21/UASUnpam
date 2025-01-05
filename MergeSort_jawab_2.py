@@ -1,5 +1,3 @@
-x = 1
-
 def merge_sort(arr, indexSort):
     if len(arr) > 1:
         tengah = len(arr) // 2
@@ -32,6 +30,11 @@ def merge_sort(arr, indexSort):
     # print("Hasil ke: ",sortKe, " ",arr )
 
 # Contoh penggunaan
+print("=================================")
+print("Nama : Saiful Rohmat")
+print("Nim : 241011403015")
+print("=================================")
+
 orders = [
     (1, "BSD", "Ciputat", "2025-01-01 07:00"),
     (2, "Pamulang", "Alam Sutra", "2025-01-01 08:00"),
